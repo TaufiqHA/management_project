@@ -8,13 +8,18 @@ export default {
     theme: {
         extend: {},
         colors: {
-            primaryColor: "#F3F3F3",
+            primaryColor: "#E4E4E4",
             textPrimaryColor: "#646464",
             customSuccess: "#7AE69A",
+            customWhite: "#FFFFFF",
         },
         borderRadius: {
             customAuthMd: "49px",
             customAuthLg: "52px",
+            customAuthSm: "30px",
+        },
+        fontSize: {
+            lg: "2.188rem",
         },
     },
     plugins: [require("daisyui")],
